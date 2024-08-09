@@ -21,7 +21,7 @@ async def delay_time(ms):
 browser = None
 
 # telegram消息
-message = 'serv00&ct8自动化脚本运行\n'
+message = 'serv00&ct8自动化脚本运行-1\n'
 
 async def login(username, password, panel):
     global browser
@@ -68,7 +68,7 @@ async def login(username, password, panel):
 
 async def main():
     global message
-    message = 'serv00&ct8自动化脚本运行\n'
+    message = 'serv00&ct8自动化脚本运行-1\n'
 
     try:
         async with aiofiles.open('accounts.json', mode='r', encoding='utf-8') as f:
